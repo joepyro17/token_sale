@@ -22,11 +22,11 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b50620f4240600081905550609e806100296000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806318160ddd146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b600054815600a165627a7a72305820cf4d516cefceda379ef3a3349c674eeb0b323423ca33dcf0a9c74d52857c696f0029",
-  "deployedBytecode": "0x608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806318160ddd146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b600054815600a165627a7a72305820cf4d516cefceda379ef3a3349c674eeb0b323423ca33dcf0a9c74d52857c696f0029",
-  "sourceMap": "26:229:0:-;;;180:71;8:9:-1;5:2;;;30:1;27;20:12;5:2;180:71:0;232:7;218:11;:21;;;;26:229;;;;;;",
-  "deployedSourceMap": "26:229:0:-;;;;;;;;;;;;;;;;;;;;;;;;147:26;;8:9:-1;5:2;;;30:1;27;20:12;5:2;147:26:0;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.4.23;\n\ncontract DappToken {\n    // Constructor\n    // Set the total number of tokens\n    // Read the total number of tokens\n    uint256 public totalSupply;\n\n    function DappToken() public {\n        totalSupply = 1000000;\n    \n    }\n\n\n}",
+  "bytecode": "0x608060405234801561001057600080fd5b50620f4240600081905550609e806100296000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806318160ddd146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b600054815600a165627a7a72305820d91cde9a2dc63de3159eacde418c7dff45909a3be72682f939a1cf667244ef1b0029",
+  "deployedBytecode": "0x608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806318160ddd146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b600054815600a165627a7a72305820d91cde9a2dc63de3159eacde418c7dff45909a3be72682f939a1cf667244ef1b0029",
+  "sourceMap": "26:224:0:-;;;180:66;8:9:-1;5:2;;;30:1;27;20:12;5:2;180:66:0;232:7;218:11;:21;;;;26:224;;;;;;",
+  "deployedSourceMap": "26:224:0:-;;;;;;;;;;;;;;;;;;;;;;;;147:26;;8:9:-1;5:2;;;30:1;27;20:12;5:2;147:26:0;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.23;\n\ncontract DappToken {\n    // Constructor\n    // Set the total number of tokens\n    // Read the total number of tokens\n    uint256 public totalSupply;\n\n    function DappToken() public {\n        totalSupply = 1000000;\n    }\n\n\n}",
   "sourcePath": "/Users/sithixaydouangchak/AppDevelopment/Ethereum/token_sale/contracts/DappToken.sol",
   "ast": {
     "absolutePath": "/Users/sithixaydouangchak/AppDevelopment/Ethereum/token_sale/contracts/DappToken.sol",
@@ -92,7 +92,7 @@
             "body": {
               "id": 10,
               "nodeType": "Block",
-              "src": "208:43:0",
+              "src": "208:38:0",
               "statements": [
                 {
                   "expression": {
@@ -169,17 +169,17 @@
               "src": "208:0:0"
             },
             "scope": 12,
-            "src": "180:71:0",
+            "src": "180:66:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 13,
-        "src": "26:229:0"
+        "src": "26:224:0"
       }
     ],
-    "src": "0:255:0"
+    "src": "0:250:0"
   },
   "legacyAST": {
     "absolutePath": "/Users/sithixaydouangchak/AppDevelopment/Ethereum/token_sale/contracts/DappToken.sol",
@@ -245,7 +245,7 @@
             "body": {
               "id": 10,
               "nodeType": "Block",
-              "src": "208:43:0",
+              "src": "208:38:0",
               "statements": [
                 {
                   "expression": {
@@ -322,17 +322,17 @@
               "src": "208:0:0"
             },
             "scope": 12,
-            "src": "180:71:0",
+            "src": "180:66:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 13,
-        "src": "26:229:0"
+        "src": "26:224:0"
       }
     ],
-    "src": "0:255:0"
+    "src": "0:250:0"
   },
   "compiler": {
     "name": "solc",
@@ -342,10 +342,10 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x57ff81d8806eee1e25ac298af2cdc48a8f3bd42e",
-      "transactionHash": "0x1d076c55467de3ad0c24b3802d0b5e05a2070a6976308650401762d52ca3137b"
+      "address": "0xa816d5f7e4155cbf844b3522ffd3f00a8e3cdeed",
+      "transactionHash": "0xbf34a35b61ef1093c3c2212758e03c6f689399e32aeaa79683aef5221478f3f4"
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-11-23T07:36:30.713Z"
+  "updatedAt": "2018-11-24T16:54:29.794Z"
 }
